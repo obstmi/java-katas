@@ -5,3 +5,4 @@ out/*
 !out/.gitignore
 logs/*
 !logs/.gitignore
+/bin/

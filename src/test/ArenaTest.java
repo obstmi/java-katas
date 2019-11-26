@@ -12,7 +12,7 @@ public class ArenaTest {
     public void testFight1() throws Exception {
         Worm worm1 = new Worm("Brandon", 18, 4);
         Worm worm2 = new Worm("Peter" , 16, 5);
-        Assert.assertEquals("Peter", Arena.fight(worm1, worm2));
+        Assert.assertEquals("Brandon", Arena.fight(worm1, worm2));
     }
 
     @Test
